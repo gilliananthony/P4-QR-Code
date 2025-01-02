@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 20%;
+}
+.qrcode img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+p {
+    font-weight: 300;
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0 20px;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+.button:hover {
+    background: #ff3d3d;
+}
+
+
